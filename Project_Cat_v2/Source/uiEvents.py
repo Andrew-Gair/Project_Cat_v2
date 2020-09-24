@@ -254,7 +254,7 @@ class events:
     ImageDescription.grid(row=1, column=0)
     ImageDescription.config(font=("Courier", 44))
       
-    Intro_1.after(1000, lambda: Intro_1.destroy()) #        <--------------------CHANGE TO 30000
+    Intro_1.after(10000, lambda: Intro_1.destroy()
     Intro_1.mainloop()
 
 
@@ -276,7 +276,7 @@ class events:
     ImageDescription.grid(row=1, column=0)
     ImageDescription.config(font=("Courier", 44))
       
-    Intro_2.after(1000, lambda: Intro_2.destroy()) #        <--------------------CHANGE TO 30000
+    Intro_2.after(10000, lambda: Intro_2.destroy())
     Intro_2.mainloop()
 
 
